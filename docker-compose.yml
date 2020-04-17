@@ -1,0 +1,8 @@
+version: '2'
+UI:
+    image: vchiru/training_app
+    ports:
+     - 8080:8080   
+
+      
+    
