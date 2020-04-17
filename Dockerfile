@@ -2,7 +2,7 @@
 # Build Stage
 #
 FROM maven:slim AS build
-MAINTAINER Adarsha <Chiranjeevi.Vadapalli@mindtree.com>
+MAINTAINER Chiranjeevi <Chiranjeevi.Vadapalli@mindtree.com>
 RUN mkdir -p /mindtree/app/src
 COPY src /mindtree/app/src
 COPY pom.xml /mindtree/app
